@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "outputDirectory": "frontend",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://MeetScribe.onrender.com/api/$1" },
+    { "source": "/stream-audio/(.*)", "destination": "https://MeetScribe.onrender.com/stream-audio/$1" }
+  ]
+}
