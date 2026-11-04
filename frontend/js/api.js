@@ -11,8 +11,8 @@ function getBackendOrigin() {
   if (host === "localhost" || host === "127.0.0.1" || host === "") {
     return "http://127.0.0.1:8000";
   }
-  // Default Render production endpoint:
-  return "https://MeetScribe.onrender.com";
+ // Default Render production endpoint:
+return "https://meetscribe-c3oj.onrender.com";
 }
 
 const api = {
