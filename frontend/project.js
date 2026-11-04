@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     formData.append("target_language", "English");
 
     try {
-      const response = await fetch(`${API_BASE}/projects/${projectId}/recordings/upload`, {
+      const response = await fetch(`${api.getBaseUrl()}/projects/${projectId}/recordings/upload`, {
         method: "POST",
         headers: { "Authorization": `Bearer ${api.getToken()}` },
         body: formData
