@@ -78,7 +78,7 @@ Open **`http://localhost:5500`** in your browser.
 ## 📂 Project Structure
 
 ```text
-TrustScribe/
+MeetScribe/
 ├── backend/
 │   ├── app/
 │   │   ├── routers/            # FastAPI route handlers (uploads, transcript, insights, etc.)
